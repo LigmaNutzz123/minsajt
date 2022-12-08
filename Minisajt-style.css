@@ -1,0 +1,14 @@
+#stumble-bild {
+  width: 120px;
+}
+
+header {
+  display: flex;
+}
+
+#länkar {
+}
+
+.body {
+  cursor: url(örsk.jpg), auto;
+}
