@@ -5,10 +5,23 @@
 
 .iphone {
   margin: 10px;
+  display: flex;
 }
 
-#bild {
-  width: 300px;
+.iphone img {
+  height: 400px;
+  transition: transform 0.5s ease;
+}
+
+.iphone .hidden {
+  transform: translateX(-100%);
+}
+
+.iphone img:first-child:active + img {
+  transform: translateX(0);
+}
+
+.bild {
   border-radius: 5px;
   border: solid 1px rgba(128, 128, 128, 0.75);
 }
