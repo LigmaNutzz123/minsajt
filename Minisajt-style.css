@@ -7,6 +7,15 @@
   margin: 10px;
   display: flex;
   height: 400px;
+  transition: all 0.5s ease-in-out;
+}
+
+#images:target {
+  transform: translateX(100%);
+}
+
+#images:not(:target) {
+  transform: translateX(0);
 }
 
 .bild {
